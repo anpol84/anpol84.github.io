@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Контакты</title>
+        <link rel = "icon" type = "image/png" href ="image_main\logo_free-file.png">
+        <link rel = "stylesheet" href = "style_contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet"> 
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <meta charset="utf8"> 
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> 
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class ="contact-page">
+            <h2>Напишите нам письмо</h2>
+            <div class = "contact-info">
+                <div class = "item">
+                    <i class = "icon fas fa-home"></i>
+                    <b>Москва, Россия</b>
+                </div>
+                <div class = "item">
+                    <i class = "icon fas fa-phone"></i>
+                    <b>+7 964 142 08 02</b>
+                </div>
+                <div class = "item">
+                    <i class = "icon fas fa-envelope"></i>
+                    <b>polakovandrej327@mail.ru</b>
+                </div>
+            </div>
+            <form class = contact-form action = "index.html">
+                <input id = "name" type="text" class="text" placeholder="Ваше имя">
+                <input id = "mail" type="text" class="text" placeholder="Ваша почта">
+                <textarea id = "text" placeholder="Ваше сообщение"></textarea>
+                <input type="submit" class="btn2" value="На Главную" >
+                <input id = "btn" type="button" class="btn" value="Отправить">
+
+            </form>
+
+        </div>
+        <script src = "script_contact.js"></script>
+    </body>
+</html>
